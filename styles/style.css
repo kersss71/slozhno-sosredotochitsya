@@ -254,6 +254,8 @@ span {
   font-size: clamp(1rem, 0.9278rem + 0.3082vw, 1.125rem);
   line-height: 130%;
   color: var(--text-subtitle-color);
+  margin-bottom: 10px;
+
 }
 
 .third__section {
@@ -269,9 +271,6 @@ span {
   row-gap: 20px;
 }
 
-.section__advice {
-  margin-bottom: 10px;
-}
 
 .fourth__section {
   padding: 20px;
