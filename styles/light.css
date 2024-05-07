@@ -15,6 +15,9 @@
   --font-family: "IBM Plex mono", sans-serif;
   --main-bg-color: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --button-color: #353430;
+
 }
 
 .theme_light .header span::before {
@@ -37,6 +40,8 @@
     --font-family: "IBM Plex mono", sans-serif;
     --main-bg-color: #ffc2e6;
     --bg-image: url(../images/cover-image-light.png);
+    --hover-color: rgba(50, 49, 45, 0.4);
+    --button-color: #353430;
   }
 
   .theme_auto .header span::before {
