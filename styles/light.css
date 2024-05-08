@@ -17,14 +17,14 @@
   --bg-image: url(../images/cover-image-light.png);
   --hover-color: rgba(50, 49, 45, 0.4);
   --button-color: #353430;
-
+  --focus-color: #353430;
 }
 
-.theme_light .header span::before {
+.theme_light .decorative__element::before {
   display: none;
 }
 
-.theme_light .header span::after {
+.theme_light .decorative__element::after {
   display: none;
 }
 
@@ -42,13 +42,14 @@
     --bg-image: url(../images/cover-image-light.png);
     --hover-color: rgba(50, 49, 45, 0.4);
     --button-color: #353430;
+    --focus-color: #353430;
   }
 
-  .theme_auto .header span::before {
+  .theme_auto .decorative__element::before {
     display: none;
   }
   
-  .theme_auto .header span::after {
+  .theme_auto .decorative__element::after {
     display: none;
   }
   

@@ -11,13 +11,14 @@
   --bg-image: url(../images/cover-image-dark.png);
   --hover-color: rgba(255, 0, 112, 0.4);
   --button-color: #ff0070;
+  --focus-color: #FF0070;
 }
 
-.theme__dark .header span::before {
+.theme_dark .decorative__element::before {
   display: block;
 }
 
-.theme__dark .header span::after {
+.theme_dark .decorative__element::after {
   display: block;
 }
 
@@ -35,13 +36,15 @@
     --bg-image: url(../images/cover-image-dark.png);
     --hover-color: rgba(255, 0, 112, 0.4);
     --button-color: #ff0070;
+    --focus-color: #FF0070;
+
   }
 
-  .theme__auto .header span::before {
+  .theme_auto .decorative__element::before {
     display: block;
   }
   
-  .theme__auto .header span::after {
+  .theme_auto .decorative__element::after {
     display: block;
   }
 }
