@@ -2,10 +2,14 @@
   --header-title-color: #DB00FF;
   --main-text-color: #F1B2CE;
   --accent-color: #FF0070;
+  --accent-color-word: #ff0070;
   --decorative-color: #FF0070;
   --text-title-color: #000028;
+  --text-subtitle-color: #000028;
   --font-family: "IBM Plex mono", sans-serif;
   --main-bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
   --hover-color: rgba(255, 0, 112, 0.4);
+  --button-color: #ff0070;
   --focus-color: #FF0070;
 }
